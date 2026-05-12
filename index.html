@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SmartCycle 💖</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>SmartCycle 💖</h1>
+
+        <p>Track your cycle & mood</p>
+
+        <div class="card">
+
+            <label>Hari terakhir haid</label>
+
+            <input type="number"
+                   id="hari">
+
+            <label>Panjang siklus</label>
+
+            <input type="number"
+                   id="siklus">
+
+            <label>Mood hari ini</label>
+
+            <select id="mood">
+
+                <option>Senang 💖</option>
+
+                <option>Sedih 🌸</option>
+
+                <option>Capek 😴</option>
+
+                <option>Stress 😢</option>
+
+            </select>
+
+            <button onclick="hitung()">
+
+                💖 HITUNG
+
+            </button>
+
+        </div>
+
+        <div class="result">
+
+            <h2 id="hasil"></h2>
+
+            <p id="moodResult"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
